@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">DrillApp</string>
+
+    <string name="startPageText">Background Image Tells About My Rocky Journey with Android Studio :)</string>
+
+    //menuitems:
+    <string name="menuitemcontacttwo">Contact2</string>
+    <string name="menuitemcontact">Contact</string>
+    <string name="menuitemurl">Url</string>
+    <string name="menuitemjoke">Joke</string>
+    <string name="menuitemgame">Game</string>
+    <string name="menuitemtest">Test</string>
+    <string name="correct">Thats Correct!</string>
+    <string name="newText">NEW</string>
+    <string name="menuitemclock">Clock</string>
+    <string name="menuitemtimer">Timer</string>
+    <string name="done">done</string>
+    <string name="countdownText">seconds remaining:</string>
+
+    <string-array name="timer_array">
+        <item>Seconds</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+    </string-array>
+
+    <!--    Game Stuff-->
+
+    <string name="gameButton">Game</string>
+    <string name="redText">GUESS</string>
+    <string name="orText">THE</string>
+    <string name="blackText">NUMBER</string>
+    <string name="infoText">INFO</string>
+    <string name="infoTextPopUp">How to play?</string>
+    <string name="redButton">RED</string>
+    <string name="blackButton">BLACK</string>
+    <string name="tooHigh">Too High</string>
+    <string name="tooLow">Too Low</string>
+    <string name="gameName">GUESS\\nTHE\\nNUMBER</string>
+    <string name="firstGuess">Guess</string>
+    <string name="grattisText">Congratulations! You found it!</string>
+    <string name="urlButton">URL Task</string>
+    <string name="Try1">You tried:</string>
+    <string name="Try2">" time!"</string>
+    <string name="newGameButton">NEW GAME</string>
+    <string name="guessButton">Guess</string>
+    <string name="score">High score:</string>
+
+    <string name="gameOver">You already tried 5 times! New game starts!</string>
+
+    <!--    contact stuff-->
+
+    <string name="gridview">Grid view</string>
+    <string name="listview">List view</string>
+
+    <string name="contactsText"> </string>
+    <string name="firstNameContact"> </string>
+    <string name="lastNameContact"> </string>
+    <string name="phoneNumberContact"> </string>
+    <string name="emailAddressContact"> </string>
+    <string name="title_activity_alarm_clock">AlarmClock</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="timerText"> </string>
+
+    <string name="timerTextOn">Off</string>
+    <string name="timerTextOff">On</string>
+    <string name="stopWatchImage"> </string>
+    <string name="title_activity_contacts">ContactsActivity</string>
+    <string name="toggleButton"> </string>
+    <string name="pauseButton">Pause</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".Timer.TimerActivity">
+
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="176dp"
+        android:text="@string/toggleButton"
+        android:textOff="@string/timerTextOff"
+        android:textOn="@string/timerTextOn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="188dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="24dp"
+        android:background="#80F00A0A"
+        android:backgroundTint="#C1EEE8E8"
+        android:spinnerMode="dropdown"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/toggleButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/timer_activity_textView"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="52dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/timer_activity_image"
+        android:layout_width="179dp"
+        android:layout_height="297dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/colorWhite"
+        android:contentDescription="@string/stopWatchImage"
+        app:layout_constraintBottom_toTopOf="@+id/spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/digital_clock"
+        app:srcCompat="@drawable/clock" />
+
+    <Button
+        android:id="@+id/timer_activity_pause_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="@color/colorWhite80"
+        android:text="@string/pauseButton"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/timer_activity_textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
+
+    <DigitalClock
+        android:id="@+id/digital_clock"
+        android:layout_width="187dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="128dp"
+        android:format24Hour="hh:mm:ss a"
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
